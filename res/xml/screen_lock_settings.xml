@@ -46,5 +46,11 @@
         android:summary="@string/fod_gesture_summary"
         android:defaultValue="true"
         settings:controller="com.android.settings.security.FodGesturePreferenceController" />
+    <!-- FOD recognizing animation -->
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="fod_recognizing_animation"
+            android:title="@string/fod_recog_animation"
+            android:summary="@string/fod_recog_animation_summary"
+            android:defaultValue="false" />
 
 </PreferenceScreen>
