@@ -18,4 +18,9 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/app_notifications_title">
 
+     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+           android:key="notification_headers"
+           android:title="@string/notification_headers_title"
+           android:summary="@string/notification_headers_summary"
+           android:defaultValue="true" />
 </PreferenceScreen>
